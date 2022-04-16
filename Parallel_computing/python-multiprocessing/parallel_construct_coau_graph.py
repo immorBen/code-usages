@@ -5,7 +5,7 @@ import pandas as pd
 import networkx as nx
 import time
 
-integ = pd.read_csv('/media/bentao/ecosystem_01/data/fromPKG/projs_pmid_aid.csv', header=None)
+integ = pd.read_csv('/media/usr/ecosystem_01/data/fromPKG/projs_pmid_aid.csv', header=None)
 integ.rename(columns={0:'PMID', 1:'AID', 2:'CORE_PROJECT_NUM'}, inplace=True)
 # Three columns corresponding to "PMID", "AID", "CORE_PROJECT_NUM"
 print('data loaded ...')
@@ -28,7 +28,7 @@ def coauthor_net(core_list):
     print('processing {}...'.format(core_list[0]))
     start = time.time()
     flag = 0
-    write_path = '/media/bentao/ecosystem_01/data/coau_nets/'
+    write_path = '/media/usr/ecosystem_01/data/coau_nets/'
     
     for core_proj in core_list:
         df = integ[integ['CORE_PROJECT_NUM'] == core_proj]
@@ -88,7 +88,7 @@ with pool:
     pool.map(coauthor_net, batches)
     
 
-# (anaconda3)bentao@BIL-WS8:/media/bentao/ecosystem_01$ python3 parallel_construct_coau_graph.py 
+# my_working_directory$ python3 parallel_construct_coau_graph.py 
 # data loaded ...
 # processing 0...
 # processing 1...
