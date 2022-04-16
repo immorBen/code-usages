@@ -1,2 +1,2 @@
 # code-usages
-Memos about codes are likely to be re-used.
+Memos about codes that are likely to be re-used.
