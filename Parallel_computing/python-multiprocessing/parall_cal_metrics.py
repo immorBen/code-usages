@@ -8,8 +8,8 @@ import pandas as pd
 
 
 # step 1: get all files
-path = '/media/bentao/ecosystem_01/data/coau_nets/graphml/'
-metrics_path = '/media/bentao/ecosystem_01/data/net_metrics/'
+path = '/media/usr/ecosystem_01/data/coau_nets/graphml/'
+metrics_path = '/media/usr/ecosystem_01/data/net_metrics/'
 for (root, dirs, all_files) in walk(path):
     break
 
