@@ -6,7 +6,7 @@ To avoid this, before starting the parrallel process, test the memory usage on t
 - start parrallel computing for the remain datasets.
 
 ### Test memory usage on code blocks
-**In Ubuntu system**, one can refer to https://stackoverflow.com/a/53475728
+**In Ubuntu system, to test how much memory used in each LOOP**, one can refer to https://stackoverflow.com/a/53475728
 ```python
 from pathlib import Path
 from resource import getpagesize
@@ -32,9 +32,10 @@ for _ in range(10):
 If used in pieces of codes, 
 ```python
 start_memory = get_resident_set_size()
-# put codes here
+# put LOOP codes here
 mem_used = get_resident_set_size() - start_memory
 print('memory used: {} Mb'.format(round(mem_used/1024, 2)))
 ```
+**If used not for loops, this one fails to compute the real memory usage and may return invalid values (negative values) if test your code repeatedly.**
 
 *another approach is suggested by https://stackoverflow.com/a/45679009 , based on [tracemalloc](https://docs.python.org/3/library/tracemalloc.html) in Python 3.4 onwards. Need further learning and confirmation.*
