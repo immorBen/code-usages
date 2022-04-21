@@ -12,3 +12,13 @@ cd ../..
 # go up three levels
 cd ../../..
 ```
+
+---
+Count the number of files in a directory, from https://askubuntu.com/a/405875
+```bash
+$ tree share/some/directory/ | tail -1
+558 directories, 853 files
+
+$ tree -L 2 share/some/directory/ | tail -1
+120 directories, 3 files
+```
