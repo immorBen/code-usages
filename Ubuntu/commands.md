@@ -22,3 +22,15 @@ $ tree share/some/directory/ | tail -1
 $ tree -L 2 share/some/directory/ | tail -1
 120 directories, 3 files
 ```
+
+Check the size of a directory, from https://askubuntu.com/a/1226
+```bash
+du -hs /path/to/directory
+```
+
+Check disk usages, 
+```bash
+df -BM
+// df -BG
+```
+*`df -BM` shows with unit as "MB", `df -BG` for "GB"*
