@@ -34,3 +34,5 @@ df -BM
 // df -BG
 ```
 *`df -BM` shows with unit as "MB", `df -BG` for "GB"*
+
+Use `xdg-open` to open files within terminal
