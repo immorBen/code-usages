@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="undirected"><node id="R01AR069572"/>
+<node id="R01AR042474"/>
+<node id="R01AI063622"/>
+<node id="R01AR063124"/>
+<node id="R01AR043814"/>
+<node id="R01AR057172"/>
+<node id="R01AR056360"/>
+<node id="R01AR042476"/>
+<node id="R01AR045451"/>
+<node id="R01AR043274"/>
+<node id="R01AR042460"/>
+<node id="R01AR033062"/>
+<node id="R01AR052125"/>
+<node id="R01AR052300"/>
+<node id="R01AI024717"/>
+<node id="R01AR051545"/>
+<node id="R01AI031584"/>
+<node id="R01AR039577"/>
+<node id="R01AR043727"/>
+<node id="R01DE015223"/>
+<node id="R01AR048045"/>
+<node id="R01AI063274"/>
+<edge source="R01AR069572" target="R01AR043727">
+  <data key="d0">33</data>
+</edge>
+<edge source="R01AR042474" target="R01AR042460">
+  <data key="d0">13</data>
+</edge>
+<edge source="R01AR042474" target="R01AI024717">
+  <data key="d0">12</data>
+</edge>
+<edge source="R01AI063622" target="R01AR042460">
+  <data key="d0">16</data>
+</edge>
+<edge source="R01AI063622" target="R01AI024717">
+  <data key="d0">14</data>
+</edge>
+<edge source="R01AR063124" target="R01AR056360">
+  <data key="d0">12</data>
+</edge>
+<edge source="R01AR043814" target="R01AR043274">
+  <data key="d0">28</data>
+</edge>
+<edge source="R01AR043814" target="R01AI063274">
+  <data key="d0">31</data>
+</edge>
+<edge source="R01AR043814" target="R01AR051545">
+  <data key="d0">19</data>
+</edge>
+<edge source="R01AR043814" target="R01AR057172">
+  <data key="d0">22</data>
+</edge>
+<edge source="R01AR057172" target="R01AR042460">
+  <data key="d0">20</data>
+</edge>
+<edge source="R01AR057172" target="R01AR043274">
+  <data key="d0">19</data>
+</edge>
+<edge source="R01AR057172" target="R01AI063274">
+  <data key="d0">19</data>
+</edge>
+<edge source="R01AR057172" target="R01AR051545">
+  <data key="d0">14</data>
+</edge>
+<edge source="R01AR056360" target="R01AI063274">
+  <data key="d0">13</data>
+</edge>
+<edge source="R01AR056360" target="R01AR051545">
+  <data key="d0">8</data>
+</edge>
+<edge source="R01AR042476" target="R01AR033062">
+  <data key="d0">18</data>
+</edge>
+<edge source="R01AR045451" target="R01AI031584">
+  <data key="d0">11</data>
+</edge>
+<edge source="R01AR045451" target="R01AR048045">
+  <data key="d0">10</data>
+</edge>
+<edge source="R01AR043274" target="R01AR042460">
+  <data key="d0">43</data>
+</edge>
+<edge source="R01AR043274" target="R01AI063274">
+  <data key="d0">37</data>
+</edge>
+<edge source="R01AR043274" target="R01AR051545">
+  <data key="d0">17</data>
+</edge>
+<edge source="R01AR042460" target="R01AI063274">
+  <data key="d0">40</data>
+</edge>
+<edge source="R01AR042460" target="R01AI024717">
+  <data key="d0">118</data>
+</edge>
+<edge source="R01AR042460" target="R01AR052125">
+  <data key="d0">13</data>
+</edge>
+<edge source="R01AR042460" target="R01DE015223">
+  <data key="d0">37</data>
+</edge>
+<edge source="R01AR042460" target="R01AI031584">
+  <data key="d0">81</data>
+</edge>
+<edge source="R01AR042460" target="R01AR052300">
+  <data key="d0">14</data>
+</edge>
+<edge source="R01AR042460" target="R01AR051545">
+  <data key="d0">16</data>
+</edge>
+<edge source="R01AR033062" target="R01AR051545">
+  <data key="d0">15</data>
+</edge>
+<edge source="R01AR052125" target="R01AI024717">
+  <data key="d0">12</data>
+</edge>
+<edge source="R01AR052125" target="R01AI063274">
+  <data key="d0">18</data>
+</edge>
+<edge source="R01AI024717" target="R01DE015223">
+  <data key="d0">38</data>
+</edge>
+<edge source="R01AI024717" target="R01AI031584">
+  <data key="d0">84</data>
+</edge>
+<edge source="R01AI024717" target="R01AR039577">
+  <data key="d0">20</data>
+</edge>
+<edge source="R01AR051545" target="R01AI063274">
+  <data key="d0">18</data>
+</edge>
+<edge source="R01AR051545" target="R01AR043727">
+  <data key="d0">15</data>
+</edge>
+<edge source="R01AI031584" target="R01DE015223">
+  <data key="d0">32</data>
+</edge>
+</graph></graphml>
